@@ -9,5 +9,7 @@
 
 [functions]
   node_bundler = "esbuild"
-  memory = 1024  # Increase memory to 1024 MB
-  max_duration = 60  # Increase the maximum duration to 60 seconds
+  max_duration = 60
+
+[functions.memory]
+  amount = 1024
