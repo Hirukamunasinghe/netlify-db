@@ -1,8 +1,9 @@
 [build]
-  command = "npm run print-node-version && npm run build"
+  command = "npm run build"
   functions = "functions"
   publish = "public"
 
 [build.environment]
   NODE_VERSION = "14"
   MONGODB_URI = "mongodb+srv://lms:lms123@cluster0.qjeb2ly.mongodb.net/dbname?retryWrites=true&w=majority"
+
