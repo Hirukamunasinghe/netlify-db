@@ -1,0 +1,21 @@
+# Ignore Node.js build artifacts
+node_modules/
+
+# Ignore Netlify local folder
+.netlify/
+
+# Ignore environment variables file (if any)
+.env
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore npm debugging log file
+npm-debug.log*
+
+# Ignore yarn lock file
+yarn.lock

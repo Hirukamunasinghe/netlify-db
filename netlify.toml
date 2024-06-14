@@ -1,0 +1,13 @@
+[build]
+  command = "npm run print-node-version && npm run build"
+  functions = "functions"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "14"
+  MONGODB_URI = "mongodb+srv://lms:lms123@cluster0.qjeb2ly.mongodb.net/dbname?retryWrites=true&w=majority"
+
+[functions]
+  node_bundler = "esbuild"
+  memory = 1024  # Increase memory to 1024 MB
+  max_duration = 60  # Increase the maximum duration to 60 seconds
